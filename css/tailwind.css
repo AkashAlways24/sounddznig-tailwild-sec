@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .site_btn{
+    font-size: 16px;
+    padding:10px 32px;
+    background-color: #E63946;
+    border-radius: 25px;
+  }
+  h2{
+    color: #FFF;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+  }
+  li{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+p{
+  color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+}
